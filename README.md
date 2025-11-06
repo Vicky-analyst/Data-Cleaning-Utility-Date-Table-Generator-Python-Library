@@ -5,6 +5,7 @@
 This project contains two complete Python self built libraries using **Object Orientated Programming System** particulaly **_Abstration & Inheritance_** designed to automate repetitive data preparation tasks:
 
 ✅ Data Cleaning Function Library
+
 ✅ Date Calculation / Date Table Function Library
 
 I built these tools to solve real business problems where datasets arrive messy, inconsistent, etc or missing crucial time-based features.
@@ -128,5 +129,35 @@ By automating repetitive transformations, the library guarantees consistent outp
 - This Calculate Date Difference in **Month, Day, Year** in
    - Two date column
    - Date column and todays date
-   
-  
+
+**✔ Date Addition Calculation:**
+
+- This Calculate Date Difference in **Month, Day, Year, Week, Business Days** in
+
+## Installation & Importing as a Library
+I Created a folder then a .py file called clean_modules for Data cleaning funtion and  Date_Table for the date table funtion
+
+Data Cleaning Library                          |                     Date Table Generator Library                
+:---------------------------------------------:|:-----------------------------------------------:
+![](Visualization_of_Global_superstore_1.png) |  ![](Visualization_of_Global_superstore_2.png)
+
+This can be imported and used in any project like this
+**Data Cleaning
+```
+from Clean_Data.clean_module import Data_Cleaning
+cleaning = Data_Cleaning(Name of table or data frame)
+cleaning.Cleaning_options()
+```
+
+Date Table Extraction
+```
+from Create_Date_Table.Date_Table import Calculate_Date
+create = Calculate_Date(df)
+```
+
+## Example Usage (Real-World Scenario)
+Data cleaning in a product sales project using the self built Data Cleaning Library
+![](Visualization_of_Global_superstore_1.png)
+
+Exracting a new month year column in a product sales project using the self built Date Table Library
+![](Visualization_of_Global_superstore_1.png)
