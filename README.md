@@ -143,14 +143,15 @@ Data Cleaning Library       |               Date Table Generator Library
 ![](Data_clean_library.png) |  ![](Date_table_library.png)
 
 This can be imported and used in any project like this
-**Data Cleaning
+
+**Data Cleaning**
 ```python
 from Clean_Data.clean_module import Data_Cleaning
 cleaning = Data_Cleaning(Name of table or data frame)
 cleaning.Cleaning_options()
 ```
 
-Date Table Extraction
+**Date Table Extraction**
 ```python
 from Create_Date_Table.Date_Table import Calculate_Date
 create = Calculate_Date(df)
@@ -166,24 +167,32 @@ Exracting a new month year column in a product sales project using the self buil
 ## Sample Data Before and After Date Cleaning
 The Date set Consist of **duplicate, irregular date format, imporper text, nullvalues, mixed unit and several inconsistencies**
 
-                Messy Data Set             
-:-------------------:|:---------------------------:
-![](messy_data1.png) |  ![](messy_data_2.png)
+### Messy Data Set
+
+| | |
+|:-------------------:|:---------------------------:|
+| ![](messy_data1.png) | ![](messy_data_2.png) |
 
 
-                Cleaned Data Set             
-:-------------------:|:-----------------------:
-![](clean_data1.png) |  ![](clean_data2.png)
+### Cleaned Data Set 
+| | |
+|:-------------------:|:-----------------------:|
+| ![](clean_data1.png) |  ![](clean_data2.png) |
 
-**watch funtion useage and break down video**
+**watch Data Cleaning funtion useage and break down video**
 ### [▶️ Watch Project Video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7383528988176117760?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvkuakBjfyB1J2b15MAdcartaZfUZ3ixmg)
+
 
 ## Sample Date Extracted Tables
 The Data displayed shows all extracted date using the date table extractor function
 
-                Date Table            
-:-------------------:|:-------------------------:
-![](date_table1.png) |  ![](date_table2.png)
+### Date Table 
+| | |
+|:-------------------:|:-------------------------:|
+| ![](date_table1.png) |  ![](date_table2.png) |
+
+**watch Date funtion useage and break down video**
+### [▶️ Watch Date Table Generator Video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7373344790362554368?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvkuakBjfyB1J2b15MAdcartaZfUZ3ixmg)
 
 
 ## Why This Library Matters (Impact by Function)
@@ -278,10 +287,15 @@ Instead of cleaning the same issues over and over, the library automates the pro
 It transforms raw, messy files into clean, trusted data that can be used confidently for reporting, analysis, machine learning, and business decisions. This library shows the ability to engineer scalable data workflows the same way enterprise data teams do.
 
 It also demonstrates skills in:
+
 ⇛ Python programming
+
 ⇛ OOP (Object-Oriented Design)
+
 ⇛ Data modeling and feature engineering
+
 ⇛ Automation and reproducibility
+
 ⇛ Building tools that reduce workload and increase accuracy
 
 Any analyst, data engineer, or business team member can install the library and clean datasets in seconds instead of hours.
