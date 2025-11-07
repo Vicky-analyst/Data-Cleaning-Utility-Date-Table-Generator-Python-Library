@@ -138,9 +138,9 @@ By automating repetitive transformations, the library guarantees consistent outp
 ## Installation & Importing as a Library
 I Created a folder then a .py file called clean_modules for Data cleaning funtion and  Date_Table for the date table funtion
 
-Data Cleaning Library                          |                     Date Table Generator Library                
-:---------------------------------------------:|:-----------------------------------------------:
-![](Visualization_of_Global_superstore_1.png) |  ![](Visualization_of_Global_superstore_2.png)
+Data Cleaning Library       |               Date Table Generator Library                
+:--------------------------:|:------------------------------------------:
+![](Data_clean_library.png) |  ![](Date_table_library.png)
 
 This can be imported and used in any project like this
 **Data Cleaning
@@ -158,28 +158,32 @@ create = Calculate_Date(df)
 
 ## Example Usage (Real-World Scenario)
 Data cleaning in a product sales project using the self built Data Cleaning Library
-![](Visualization_of_Global_superstore_1.png)
+![](data_clean_used_case.png)
 
 Exracting a new month year column in a product sales project using the self built Date Table Library
-![](Visualization_of_Global_superstore_1.png)
+![](Date_table_used_case.png)
 
 ## Sample Data Before and After Date Cleaning
 The Date set Consist of **duplicate, irregular date format, imporper text, nullvalues, mixed unit and several inconsistencies**
 
-                                    Messy Data Set             
-:---------------------------------------------:|:-----------------------------------------------:
-![](Visualization_of_Global_superstore_1.png) |  ![](Visualization_of_Global_superstore_2.png)
+                Messy Data Set             
+:-------------------:|:---------------------------:
+![](messy_data1.png) |  ![](messy_data_2.png)
 
-                                    Cleaned Data Set             
-:---------------------------------------------:|:-----------------------------------------------:
-![](Visualization_of_Global_superstore_1.png) |  ![](Visualization_of_Global_superstore_2.png)
+
+                Cleaned Data Set             
+:-------------------:|:-----------------------:
+![](clean_data1.png) |  ![](clean_data2.png)
+
+**watch funtion useage and break down video**
+### [▶️ Watch Project Video on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7383528988176117760?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvkuakBjfyB1J2b15MAdcartaZfUZ3ixmg)
 
 ## Sample Date Extracted Tables
 The Data displayed shows all extracted date using the date table extractor function
 
-Messy Data Set             
-:---------------------------------------------:|:-----------------------------------------------:
-![](Visualization_of_Global_superstore_1.png) |  ![](Visualization_of_Global_superstore_2.png)
+                Date Table            
+:-------------------:|:-------------------------:
+![](date_table1.png) |  ![](date_table2.png)
 
 
 ## Why This Library Matters (Impact by Function)
