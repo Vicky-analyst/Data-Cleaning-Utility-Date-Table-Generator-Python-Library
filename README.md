@@ -136,7 +136,7 @@ By automating repetitive transformations, the library guarantees consistent outp
 - This Calculate Date Difference in **Month, Day, Year, Week, Business Days** in
 
 ## Installation & Importing as a Library
-I Created a folder then a .py file called clean_modules for Data cleaning funtion and  Date_Table for the date table funtion
+I Created a folder then a .py file called **clean_modules** for **_Data cleaning funtion_**  and  **Date_Table** for the **_Date table funtion_**
 
 Data Cleaning Library       |               Date Table Generator Library                
 :--------------------------:|:------------------------------------------:
